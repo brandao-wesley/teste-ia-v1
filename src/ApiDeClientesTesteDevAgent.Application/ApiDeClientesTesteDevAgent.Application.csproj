@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\ApiDeClientesTesteDevAgent.Domain\ApiDeClientesTesteDevAgent.Domain.csproj" />
+  </ItemGroup>
+</Project>
