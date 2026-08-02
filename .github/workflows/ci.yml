@@ -1,0 +1,20 @@
+name: CI - .NET Clean Architecture
+on:
+  push:
+    branches: [ main, master, develop, "feature/**", "fix/**", "refactor/**", "docs/**", "test/**", "chore/**" ]
+  pull_request:
+    branches: [ main, master, develop ]
+jobs:
+  build-test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - shell: pwsh
+        run: dotnet restore .\ApiDeClientesTesteDevAgent.sln
+      - shell: pwsh
+        run: dotnet build .\ApiDeClientesTesteDevAgent.sln --configuration Release --no-restore
+      - shell: pwsh
+        run: dotnet test .\ApiDeClientesTesteDevAgent.sln --configuration Release --no-build --collect:"XPlat Code Coverage"
