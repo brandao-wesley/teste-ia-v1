@@ -1,0 +1,206 @@
+{
+  "schema_version": "6.7.5",
+  "passed": true,
+  "category": "passed",
+  "reason": "Build, testes, cobertura, estrutura, dependências e segurança aprovados.",
+  "stack": "dotnet-clean-api",
+  "solution_file": "ApiDeClientesTesteDevAgent.sln",
+  "minimum_coverage": 90.0,
+  "coverage": 98.63,
+  "coverage_files": [
+    ".fabulosoft\\TestResults\\test_1\\728b4fe7-e0fe-4e20-a3e0-479453520162\\coverage.cobertura.xml"
+  ],
+  "structure_ok": true,
+  "structure_problems": [],
+  "structure_warnings": [],
+  "structure_repaired": [
+    "dotnet sln list final: exit 0\nProjetos\n--------\nsrc\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj\nsrc\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj\nsrc\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj\nsrc\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj\ntests\\ApiDeClientesTesteDevAgent.UnitTests\\ApiDeClientesTesteDevAgent.UnitTests.csproj"
+  ],
+  "package_family_reconciled": false,
+  "solution_reconciliation_logs": [
+    "dotnet sln list final: exit 0\nProjetos\n--------\nsrc\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj\nsrc\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj\nsrc\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj\nsrc\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj\ntests\\ApiDeClientesTesteDevAgent.UnitTests\\ApiDeClientesTesteDevAgent.UnitTests.csproj"
+  ],
+  "build_ok": true,
+  "tests_ok": true,
+  "coverage_ok": true,
+  "security_ok": true,
+  "security_audit_ok": true,
+  "security_blocking": false,
+  "security_findings": [],
+  "commands": [
+    {
+      "label": "dotnet restore solution",
+      "command": [
+        "dotnet",
+        "restore",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\ApiDeClientesTesteDevAgent.sln",
+        "--force-evaluate"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "Determinando os projetos a serem restaurados...\nC:\\Program Files\\dotnet\\sdk\\8.0.423\\NuGet.targets(174,5): warning : NÃ£o Ã© possÃ­vel encontrar um projeto para restaurar! [C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\ApiDeClientesTesteDevAgent.sln]"
+    },
+    {
+      "label": "dotnet build solution",
+      "command": [
+        "dotnet",
+        "build",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\ApiDeClientesTesteDevAgent.sln",
+        "--configuration",
+        "Release",
+        "--no-restore"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "CompilaÃ§Ã£o com Ãªxito.\n    0 Aviso(s)\n    0 Erro(s)\n\nTempo Decorrido 00:00:00.06"
+    },
+    {
+      "label": "dotnet test coverage ApiDeClientesTesteDevAgent.UnitTests.csproj",
+      "command": [
+        "dotnet",
+        "test",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\tests\\ApiDeClientesTesteDevAgent.UnitTests\\ApiDeClientesTesteDevAgent.UnitTests.csproj",
+        "--configuration",
+        "Release",
+        "--results-directory",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\.fabulosoft\\TestResults\\test_1",
+        "--collect",
+        "XPlat Code Coverage"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "Determinando os projetos a serem restaurados...\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 42 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 40 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\tests\\ApiDeClientesTesteDevAgent.UnitTests\\ApiDeClientesTesteDevAgent.UnitTests.csproj restaurado (em 140 ms).\n  ApiDeClientesTesteDevAgent.Domain -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Domain\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Domain.dll\n  ApiDeClientesTesteDevAgent.Application -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Application\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Application.dll\n  ApiDeClientesTesteDevAgent.UnitTests -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\tests\\ApiDeClientesTesteDevAgent.UnitTests\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.UnitTests.dll\nExecução de teste para C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\tests\\ApiDeClientesTesteDevAgent.UnitTests\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.UnitTests.dll (.NETCoreApp,Version=v8.0)\nVersão do VSTest 17.11.1 (x64)\n\nIniciando execução de teste, espere...\n1 arquivos de teste no total corresponderam ao padrão especificado.\n\nAprovado!  � Com falha:     0, Aprovado:    27, Ignorado:     0, Total:    27, Duração: 120 ms - ApiDeClientesTesteDevAgent.UnitTests.dll (net8.0)\n\nAnexos:\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\.fabulosoft\\TestResults\\test_1\\728b4fe7-e0fe-4e20-a3e0-479453520162\\coverage.cobertura.xml"
+    },
+    {
+      "label": "dotnet sdk version",
+      "command": [
+        "dotnet",
+        "--version"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "8.0.423"
+    },
+    {
+      "label": "dotnet restore audit ApiDeClientesTesteDevAgent.Api.csproj",
+      "command": [
+        "dotnet",
+        "restore",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj",
+        "--force-evaluate"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "Determinando os projetos a serem restaurados...\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 47 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 44 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 184 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj restaurado (em 210 ms)."
+    },
+    {
+      "label": "dotnet vulnerable packages ApiDeClientesTesteDevAgent.Api.csproj",
+      "command": [
+        "dotnet",
+        "list",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj",
+        "package",
+        "--vulnerable",
+        "--include-transitive",
+        "--format",
+        "json",
+        "--output-version",
+        "1"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "{\n  \"version\": 1,\n  \"parameters\": \"--vulnerable --include-transitive\",\n  \"sources\": [\n    \"https://api.nuget.org/v3/index.json\"\n  ],\n  \"projects\": [\n    {\n      \"path\": \"C:/Users/brand/AppData/Local/FabulosoftIA/data/dev_workspaces/task_1/repo/src/ApiDeClientesTesteDevAgent.Api/ApiDeClientesTesteDevAgent.Api.csproj\"\n    }\n  ]\n}"
+    },
+    {
+      "label": "dotnet restore audit ApiDeClientesTesteDevAgent.Application.csproj",
+      "command": [
+        "dotnet",
+        "restore",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj",
+        "--force-evaluate"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "Determinando os projetos a serem restaurados...\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 39 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 40 ms)."
+    },
+    {
+      "label": "dotnet vulnerable packages ApiDeClientesTesteDevAgent.Application.csproj",
+      "command": [
+        "dotnet",
+        "list",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj",
+        "package",
+        "--vulnerable",
+        "--include-transitive",
+        "--format",
+        "json",
+        "--output-version",
+        "1"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "{\n  \"version\": 1,\n  \"parameters\": \"--vulnerable --include-transitive\",\n  \"sources\": [\n    \"https://api.nuget.org/v3/index.json\"\n  ],\n  \"projects\": [\n    {\n      \"path\": \"C:/Users/brand/AppData/Local/FabulosoftIA/data/dev_workspaces/task_1/repo/src/ApiDeClientesTesteDevAgent.Application/ApiDeClientesTesteDevAgent.Application.csproj\"\n    }\n  ]\n}"
+    },
+    {
+      "label": "dotnet restore audit ApiDeClientesTesteDevAgent.Infrastructure.csproj",
+      "command": [
+        "dotnet",
+        "restore",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj",
+        "--force-evaluate"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "Determinando os projetos a serem restaurados...\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 39 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 40 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 129 ms)."
+    },
+    {
+      "label": "dotnet vulnerable packages ApiDeClientesTesteDevAgent.Infrastructure.csproj",
+      "command": [
+        "dotnet",
+        "list",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj",
+        "package",
+        "--vulnerable",
+        "--include-transitive",
+        "--format",
+        "json",
+        "--output-version",
+        "1"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "{\n  \"version\": 1,\n  \"parameters\": \"--vulnerable --include-transitive\",\n  \"sources\": [\n    \"https://api.nuget.org/v3/index.json\"\n  ],\n  \"projects\": [\n    {\n      \"path\": \"C:/Users/brand/AppData/Local/FabulosoftIA/data/dev_workspaces/task_1/repo/src/ApiDeClientesTesteDevAgent.Infrastructure/ApiDeClientesTesteDevAgent.Infrastructure.csproj\"\n    }\n  ]\n}"
+    },
+    {
+      "label": "dotnet restore audit ApiDeClientesTesteDevAgent.UnitTests.csproj",
+      "command": [
+        "dotnet",
+        "restore",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\tests\\ApiDeClientesTesteDevAgent.UnitTests\\ApiDeClientesTesteDevAgent.UnitTests.csproj",
+        "--force-evaluate"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "Determinando os projetos a serem restaurados...\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 38 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\src\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 38 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\tests\\ApiDeClientesTesteDevAgent.UnitTests\\ApiDeClientesTesteDevAgent.UnitTests.csproj restaurado (em 126 ms)."
+    },
+    {
+      "label": "dotnet vulnerable packages ApiDeClientesTesteDevAgent.UnitTests.csproj",
+      "command": [
+        "dotnet",
+        "list",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\data\\dev_workspaces\\task_1\\repo\\tests\\ApiDeClientesTesteDevAgent.UnitTests\\ApiDeClientesTesteDevAgent.UnitTests.csproj",
+        "package",
+        "--vulnerable",
+        "--include-transitive",
+        "--format",
+        "json",
+        "--output-version",
+        "1"
+      ],
+      "exit_code": 0,
+      "ok": true,
+      "output": "{\n  \"version\": 1,\n  \"parameters\": \"--vulnerable --include-transitive\",\n  \"sources\": [\n    \"https://api.nuget.org/v3/index.json\"\n  ],\n  \"projects\": [\n    {\n      \"path\": \"C:/Users/brand/AppData/Local/FabulosoftIA/data/dev_workspaces/task_1/repo/tests/ApiDeClientesTesteDevAgent.UnitTests/ApiDeClientesTesteDevAgent.UnitTests.csproj\"\n    }\n  ]\n}"
+    }
+  ],
+  "generated_at": "2026-08-02T00:16:57.230943+00:00"
+}

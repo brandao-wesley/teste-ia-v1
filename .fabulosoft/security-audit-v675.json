@@ -1,0 +1,29 @@
+{
+  "schema_version": "6.7.5",
+  "sdk_major": 8,
+  "audit_ok": true,
+  "findings": [],
+  "projects": [
+    {
+      "project": "src\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj",
+      "status": "audited",
+      "high_or_critical": []
+    },
+    {
+      "project": "src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj",
+      "status": "audited",
+      "high_or_critical": []
+    },
+    {
+      "project": "src\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj",
+      "status": "audited",
+      "high_or_critical": []
+    },
+    {
+      "project": "tests\\ApiDeClientesTesteDevAgent.UnitTests\\ApiDeClientesTesteDevAgent.UnitTests.csproj",
+      "status": "audited",
+      "high_or_critical": []
+    }
+  ],
+  "generated_at": "2026-08-02T00:16:57.229941+00:00"
+}
