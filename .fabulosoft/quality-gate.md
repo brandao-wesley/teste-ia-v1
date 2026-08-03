@@ -3,7 +3,7 @@
 Status: APROVADO
 Categoria: passed
 Motivo: Cópia limpa executada diretamente no host; script, health, Swagger, CRUD e reinício aprovados.
-Cobertura: 98.03%
+Cobertura: 90.07%
 Meta de cobertura: 90.00%
 SecurityBlocking: false
 
@@ -20,21 +20,21 @@ SecurityBlocking: false
 - Sucesso: sim
 ```text
 Determinando os projetos a serem restaurados...
-  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Application\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 49 ms).
-  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Domain\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 46 ms).
-  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Infrastructure\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 175 ms).
-  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Api\ApiDeClientesTesteDevAgent.Api.csproj restaurado (em 182 ms).
-  ApiDeClientesTesteDevAgent.Domain -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Domain\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Domain.dll
-  ApiDeClientesTesteDevAgent.Application -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Application\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Application.dll
-  ApiDeClientesTesteDevAgent.Infrastructure -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Infrastructure\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Infrastructure.dll
-  ApiDeClientesTesteDevAgent.Api -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Api\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Api.dll
+  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Application\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 46 ms).
+  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Domain\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 43 ms).
+  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Infrastructure\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 177 ms).
+  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Api\ApiDeClientesTesteDevAgent.Api.csproj restaurado (em 185 ms).
+  ApiDeClientesTesteDevAgent.Domain -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Domain\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Domain.dll
+  ApiDeClientesTesteDevAgent.Application -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Application\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Application.dll
+  ApiDeClientesTesteDevAgent.Infrastructure -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Infrastructure\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Infrastructure.dll
+  ApiDeClientesTesteDevAgent.Api -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Api\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Api.dll
 
 Compilação com êxito.
     0 Aviso(s)
     0 Erro(s)
 
-Tempo Decorrido 00:00:01.35
-Projeto pronto em http://127.0.0.1:57495 (PID 27728)
+Tempo Decorrido 00:00:01.26
+Projeto pronto em http://127.0.0.1:62512 (PID 20096)
 ```
 
 ### Clean host customer shutdown
@@ -49,21 +49,21 @@ Projeto pronto em http://127.0.0.1:57495 (PID 27728)
 - Sucesso: sim
 ```text
 Determinando os projetos a serem restaurados...
-  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Domain\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 45 ms).
-  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Application\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 48 ms).
-  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Infrastructure\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 158 ms).
-  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Api\ApiDeClientesTesteDevAgent.Api.csproj restaurado (em 161 ms).
-  ApiDeClientesTesteDevAgent.Domain -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Domain\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Domain.dll
-  ApiDeClientesTesteDevAgent.Application -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Application\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Application.dll
-  ApiDeClientesTesteDevAgent.Infrastructure -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Infrastructure\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Infrastructure.dll
-  ApiDeClientesTesteDevAgent.Api -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_22\clean-clone\src\ApiDeClientesTesteDevAgent.Api\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Api.dll
+  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Application\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 48 ms).
+  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Domain\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 44 ms).
+  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Infrastructure\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 162 ms).
+  C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Api\ApiDeClientesTesteDevAgent.Api.csproj restaurado (em 167 ms).
+  ApiDeClientesTesteDevAgent.Domain -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Domain\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Domain.dll
+  ApiDeClientesTesteDevAgent.Application -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Application\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Application.dll
+  ApiDeClientesTesteDevAgent.Infrastructure -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Infrastructure\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Infrastructure.dll
+  ApiDeClientesTesteDevAgent.Api -> C:\Users\brand\AppData\Local\FabulosoftIA\acceptance\task_23\clean-clone\src\ApiDeClientesTesteDevAgent.Api\bin\Release\net8.0\ApiDeClientesTesteDevAgent.Api.dll
 
 Compilação com êxito.
     0 Aviso(s)
     0 Erro(s)
 
-Tempo Decorrido 00:00:00.79
-Projeto pronto em http://127.0.0.1:57495 (PID 16344)
+Tempo Decorrido 00:00:00.74
+Projeto pronto em http://127.0.0.1:62512 (PID 10780)
 ```
 
 ### Clean host final cleanup

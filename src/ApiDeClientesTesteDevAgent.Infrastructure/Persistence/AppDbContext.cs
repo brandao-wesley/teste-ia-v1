@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using ApiDeClientesTesteDevAgent.Domain.Estoques;
 using ApiDeClientesTesteDevAgent.Domain.Suppliers;
 using ApiDeClientesTesteDevAgent.Domain.Customers;
 
@@ -7,6 +8,7 @@ namespace ApiDeClientesTesteDevAgent.Infrastructure.Persistence
     public sealed class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+    public DbSet<Estoque> Estoques => Set<Estoque>();
     public DbSet<Supplier> Suppliers => Set<Supplier>();
         public DbSet<Customer> Customers => Set<Customer>();
 

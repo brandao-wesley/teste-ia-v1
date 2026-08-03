@@ -1,14 +1,14 @@
 {
   "mode": "safe_incremental",
-  "entity": "Supplier",
+  "entity": "Estoque",
   "created": [
-    "src/ApiDeClientesTesteDevAgent.Domain/Suppliers/Supplier.cs",
-    "src/ApiDeClientesTesteDevAgent.Application/Suppliers/SupplierContracts.cs",
-    "src/ApiDeClientesTesteDevAgent.Application/Suppliers/ISupplierRepository.cs",
-    "src/ApiDeClientesTesteDevAgent.Application/Suppliers/SupplierService.cs",
-    "src/ApiDeClientesTesteDevAgent.Infrastructure/Repositories/EfSupplierRepository.cs",
-    "src/ApiDeClientesTesteDevAgent.Api/Controllers/SuppliersController.cs",
-    "tests/ApiDeClientesTesteDevAgent.UnitTests/Suppliers/SupplierTests.cs"
+    "src/ApiDeClientesTesteDevAgent.Domain/Estoques/Estoque.cs",
+    "src/ApiDeClientesTesteDevAgent.Application/Estoques/EstoqueContracts.cs",
+    "src/ApiDeClientesTesteDevAgent.Application/Estoques/IEstoqueRepository.cs",
+    "src/ApiDeClientesTesteDevAgent.Application/Estoques/EstoqueService.cs",
+    "src/ApiDeClientesTesteDevAgent.Infrastructure/Repositories/EfEstoqueRepository.cs",
+    "src/ApiDeClientesTesteDevAgent.Api/Controllers/EstoquesController.cs",
+    "tests/ApiDeClientesTesteDevAgent.UnitTests/Estoques/EstoqueTests.cs"
   ],
   "edited": [
     "src\\ApiDeClientesTesteDevAgent.Api\\Program.cs",
