@@ -1,4 +1,4 @@
-# API de Fornecedores - Teste DEV Agent — Documentação do Projeto
+# API de Estoque - Teste DEV Agent — Documentação do Projeto
 
 > Documento gerado automaticamente pelo Fabulosoft Dev Agent após geração/evolução e antes da entrega.
 
@@ -30,7 +30,7 @@ Regras obrigatórias:
 - Em Git, criar branch feature-dev-agent-nome-reduzido-task-id, preparar rollback e abrir PR para revisão humana.
 - Não fazer merge automático para dev/main.
 FIM_CONTRATO_DEV_AGENT
-Atualize essa API REST em .NET 8 incluindo gerenciamento de fornecedores.
+Atualize essa API REST em .NET 8 incluindo gerenciamento de estoques.
 Requisitos:
 - DDD e Clean Architecture.
 - Projetos:
@@ -39,15 +39,16 @@ Requisitos:
   - Infrastructure
   - API
   - Tests
-- Entidade Fornecedor:
+- Entidade Estoque:
   - Id
-  - Nome_Fornecedor
-  - Email_Fornecedor
-  - Documento_Fornecedor
-  - Status_Fornecedor (Sim ou Não)
+  - Produto
+  - Fornecedor
+  - Estoque
+  - qnt_minima
+  - Status_Produto (Sim ou Não)
   - CriadoEm
 - CRUD completo.
-- Atualize o SQLite existente, criando a tabela de fornecedores.
+- Atualize o SQLite existente, criando a tabela de estoque.
 - Entity Framework Core.
 - Swagger.
 - Health Check.
@@ -63,7 +64,7 @@ Requisitos:
 - .env.example.
 - Não inserir credenciais reais.
  
-Importante: Não quebrar o q já existia, arquivos estratégicos, pode ser editado, mas tem q ter garantia que está tudo funcionando.
+Importante: Não quebrar o que já existia, arquivos estratégicos, pode ser editado, mas tem q ter garantia que está tudo funcionando.
 
 O projeto aplica separação por camadas, API documentada por OpenAPI/Swagger, persistência configurável, testes automatizados, cobertura mínima contratual de 90% e validação de segurança antes da publicação.
 
@@ -127,6 +128,11 @@ Envie o conteúdo de `publish` ao serviço de hospedagem. Configure a variável 
 | POST | `/api/Customers` |
 | PUT | `/api/Customers/{id}` |
 | DELETE | `/api/Customers/{id}` |
+| GET | `/api/Estoques` |
+| GET | `/api/Estoques/{id}` |
+| POST | `/api/Estoques` |
+| PUT | `/api/Estoques/{id}` |
+| DELETE | `/api/Estoques/{id}` |
 | GET | `/api/Suppliers` |
 | GET | `/api/Suppliers/{id}` |
 | POST | `/api/Suppliers` |
@@ -136,6 +142,14 @@ Envie o conteúdo de `publish` ao serviço de hospedagem. Configure a variável 
 ## 8. Massas de teste
 
 ### POST /api/Customers
+```json
+{
+  "name": "Registro de teste",
+  "document": "123456789",
+  "email": "teste@example.com"
+}
+```
+### POST /api/Estoques
 ```json
 {
   "name": "Registro de teste",
