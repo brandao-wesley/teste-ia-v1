@@ -6,14 +6,15 @@
   "stack": "dotnet-clean-api",
   "solution_file": "ApiDeClientesTesteDevAgent.sln",
   "minimum_coverage": 90.0,
-  "coverage": 98.63,
+  "coverage": 98.03,
   "coverage_files": [
-    ".fabulosoft\\TestResults\\test_1\\18c67bec-18ee-4f0e-b959-d4752aa2d658\\coverage.cobertura.xml"
+    ".fabulosoft\\TestResults\\test_1\\bdc31722-dc8e-4d85-b3cb-25e219ef71aa\\coverage.cobertura.xml"
   ],
   "structure_ok": true,
   "structure_problems": [],
   "structure_warnings": [],
   "structure_repaired": [
+    "tests\\ApiDeClientesTesteDevAgent.UnitTests\\Suppliers\\SupplierCoverageTests.cs — namespace file-scoped convertido para bloco",
     "dotnet sln list final: exit 0\nProjetos\n--------\nsrc\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj\nsrc\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj\nsrc\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj\nsrc\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj\ntests\\ApiDeClientesTesteDevAgent.UnitTests\\ApiDeClientesTesteDevAgent.UnitTests.csproj"
   ],
   "package_family_reconciled": false,
@@ -31,16 +32,16 @@
     {
       "ok": true,
       "exit_code": 0,
-      "output": "Determinando os projetos a serem restaurados...\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 49 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 46 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 178 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj restaurado (em 198 ms).\n  ApiDeClientesTesteDevAgent.Domain -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Domain\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Domain.dll\n  ApiDeClientesTesteDevAgent.Application -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Application\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Application.dll\n  ApiDeClientesTesteDevAgent.Infrastructure -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Infrastructure.dll\n  ApiDeClientesTesteDevAgent.Api -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Api\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Api.dll\n\nCompilação com êxito.\n    0 Aviso(s)\n    0 Erro(s)\n\nTempo Decorrido 00:00:01.39\nProjeto pronto em http://127.0.0.1:57689 (PID 20096)",
+      "output": "Determinando os projetos a serem restaurados...\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 49 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 46 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 175 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj restaurado (em 182 ms).\n  ApiDeClientesTesteDevAgent.Domain -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Domain\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Domain.dll\n  ApiDeClientesTesteDevAgent.Application -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Application\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Application.dll\n  ApiDeClientesTesteDevAgent.Infrastructure -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Infrastructure.dll\n  ApiDeClientesTesteDevAgent.Api -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Api\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Api.dll\n\nCompilação com êxito.\n    0 Aviso(s)\n    0 Erro(s)\n\nTempo Decorrido 00:00:01.35\nProjeto pronto em http://127.0.0.1:57495 (PID 27728)",
       "command": [
         "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.EXE",
         "-NoProfile",
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\run_backend.ps1",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\run_backend.ps1",
         "-Port",
-        "57689",
+        "57495",
         "-Detached"
       ],
       "label": "Clean host customer startup"
@@ -55,9 +56,9 @@
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\run_backend.ps1",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\run_backend.ps1",
         "-Port",
-        "57689",
+        "57495",
         "-Down"
       ],
       "label": "Clean host customer shutdown"
@@ -65,16 +66,16 @@
     {
       "ok": true,
       "exit_code": 0,
-      "output": "Determinando os projetos a serem restaurados...\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 48 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 46 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 173 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj restaurado (em 176 ms).\n  ApiDeClientesTesteDevAgent.Domain -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Domain\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Domain.dll\n  ApiDeClientesTesteDevAgent.Application -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Application\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Application.dll\n  ApiDeClientesTesteDevAgent.Infrastructure -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Infrastructure.dll\n  ApiDeClientesTesteDevAgent.Api -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Api\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Api.dll\n\nCompilação com êxito.\n    0 Aviso(s)\n    0 Erro(s)\n\nTempo Decorrido 00:00:00.75\nProjeto pronto em http://127.0.0.1:57689 (PID 18852)",
+      "output": "Determinando os projetos a serem restaurados...\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Domain\\ApiDeClientesTesteDevAgent.Domain.csproj restaurado (em 45 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Application\\ApiDeClientesTesteDevAgent.Application.csproj restaurado (em 48 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\ApiDeClientesTesteDevAgent.Infrastructure.csproj restaurado (em 158 ms).\n  C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Api\\ApiDeClientesTesteDevAgent.Api.csproj restaurado (em 161 ms).\n  ApiDeClientesTesteDevAgent.Domain -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Domain\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Domain.dll\n  ApiDeClientesTesteDevAgent.Application -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Application\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Application.dll\n  ApiDeClientesTesteDevAgent.Infrastructure -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Infrastructure\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Infrastructure.dll\n  ApiDeClientesTesteDevAgent.Api -> C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\src\\ApiDeClientesTesteDevAgent.Api\\bin\\Release\\net8.0\\ApiDeClientesTesteDevAgent.Api.dll\n\nCompilação com êxito.\n    0 Aviso(s)\n    0 Erro(s)\n\nTempo Decorrido 00:00:00.79\nProjeto pronto em http://127.0.0.1:57495 (PID 16344)",
       "command": [
         "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.EXE",
         "-NoProfile",
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\run_backend.ps1",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\run_backend.ps1",
         "-Port",
-        "57689",
+        "57495",
         "-Detached"
       ],
       "label": "Clean host customer restart"
@@ -89,13 +90,13 @@
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_20\\clean-clone\\run_backend.ps1",
+        "C:\\Users\\brand\\AppData\\Local\\FabulosoftIA\\acceptance\\task_22\\clean-clone\\run_backend.ps1",
         "-Down"
       ],
       "label": "Clean host final cleanup"
     }
   ],
-  "generated_at": "2026-08-02T18:53:54.403411+00:00",
+  "generated_at": "2026-08-03T01:40:06.979571+00:00",
   "contract_database_requested": "sqlite",
   "contract_ok": true,
   "runtime_ok": true,

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using ApiDeClientesTesteDevAgent.Domain.Suppliers;
 using ApiDeClientesTesteDevAgent.Domain.Customers;
 
 namespace ApiDeClientesTesteDevAgent.Infrastructure.Persistence
@@ -6,6 +7,7 @@ namespace ApiDeClientesTesteDevAgent.Infrastructure.Persistence
     public sealed class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+    public DbSet<Supplier> Suppliers => Set<Supplier>();
         public DbSet<Customer> Customers => Set<Customer>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

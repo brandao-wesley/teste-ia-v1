@@ -1,11 +1,11 @@
 {
   "projects": 5,
   "updates": {
-    "xunit": "2.9.2",
-    "xunit.runner.visualstudio": "2.8.2",
     "coverlet.msbuild": "6.0.3",
     "Microsoft.NET.Test.Sdk": "17.11.1",
     "coverlet.collector": "6.0.3",
+    "xunit": "2.9.2",
+    "xunit.runner.visualstudio": "2.8.2",
     "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
   },
   "removals": [],

@@ -1,0 +1,65 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>API de Fornecedores - Teste DEV Agent — Documentação</title><style>
+:root{--bg:#0f1020;--card:#191a31;--line:#35365a;--text:#f5f6ff;--muted:#b8bad2;--accent:#9b5cff;--cyan:#38cfff;--green:#35d49a}*{box-sizing:border-box}body{margin:0;font:16px/1.6 Inter,Segoe UI,Arial;background:radial-gradient(circle at top left,#32235a 0,#111226 38%,#090a14 100%);color:var(--text)}main{max-width:1080px;margin:auto;padding:48px 22px 80px}header{padding:38px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,rgba(155,92,255,.22),rgba(56,207,255,.08));box-shadow:0 24px 70px #0008}h1{font-size:clamp(2rem,5vw,3.7rem);margin:0 0 8px}h2{margin-top:36px;color:#ddd6ff}.tag{display:inline-block;padding:6px 12px;border-radius:999px;background:#ffffff12;border:1px solid #ffffff25;color:#d9d5ff}section{margin-top:22px;padding:26px;border-radius:18px;background:var(--card);border:1px solid var(--line)}code,pre{background:#0b0c18;border:1px solid #2c2d4b;border-radius:9px}code{padding:2px 6px}pre{padding:16px;overflow:auto}table{width:100%;border-collapse:collapse}td,th{padding:12px;border-bottom:1px solid var(--line);text-align:left}.method{font-weight:800;padding:5px 9px;border-radius:7px}.get{background:#2385ff33;color:#7fc1ff}.post{background:#2ac58a33;color:#74efbd}.put{background:#ff9b2733;color:#ffc274}.delete{background:#ff4d6533;color:#ff9aa8}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.gain{padding:16px;border-radius:14px;background:#ffffff08}a{color:var(--cyan)}footer{text-align:center;color:var(--muted);margin-top:30px}</style></head><body><main><header><span class="tag">Fabulosoft Dev Agent</span><h1>API de Fornecedores - Teste DEV Agent</h1><p>Documentação técnica e operacional completa da entrega.</p></header><section><h2>Resumo e objetivo</h2><p>FABULOSOFT_PROJECT_EVOLUTION_V6101
+Modo: EVOLUCAO_INCREMENTAL_SEGURA
+Regras obrigatorias de regressao zero:
+- Clonar/abrir o projeto existente e criar branch nova.
+- Não recriar, substituir ou apagar funcionalidades anteriores.
+- Criar arquivos do novo escopo e editar arquivos compartilhados somente quando necessário.
+- Rodar todos os testes antigos e novos; cobertura global do projeto inteiro acima de 90%.
+- Validar em cópia limpa todos os endpoints antigos e novos antes do Git.
+- Criar documentation/PROJECT_DOCUMENTATION.html e PROJECT_DOCUMENTATION.md completos.
+FIM_FABULOSOFT_PROJECT_EVOLUTION_V6101
+
+FABULOSOFT_DEV_CONTRACT_V610
+Tipo de projeto: api
+Stack contratada: dotnet-clean-api
+Backend: dotnet-clean-api
+Frontend: NÃO CRIAR FRONTEND
+Politica Git: pull_request_humano
+Modo repo Git: existente_ou_novo
+Branch de passagem: dev-agent/staging
+Regras obrigatórias:
+- Obedecer exatamente o tipo de projeto contratado.
+- Se tipo = api/worker/cli/library/microservice, não criar React, Blazor, Angular, Vue ou Web.
+- Rodar build/test/cobertura/smoke test e auditoria de vulnerabilidades quando aplicável.
+- Em Git, criar branch feature-dev-agent-nome-reduzido-task-id, preparar rollback e abrir PR para revisão humana.
+- Não fazer merge automático para dev/main.
+FIM_CONTRATO_DEV_AGENT
+Atualize essa API REST em .NET 8 incluindo gerenciamento de fornecedores.
+Requisitos:
+- DDD e Clean Architecture.
+- Projetos:
+  - Domain
+  - Application
+  - Infrastructure
+  - API
+  - Tests
+- Entidade Fornecedor:
+  - Id
+  - Nome_Fornecedor
+  - Email_Fornecedor
+  - Documento_Fornecedor
+  - Status_Fornecedor (Sim ou Não)
+  - CriadoEm
+- CRUD completo.
+- Atualize o SQLite existente, criando a tabela de fornecedores.
+- Entity Framework Core.
+- Swagger.
+- Health Check.
+- Tratamento global de erros.
+- Logs estruturados.
+- Validações.
+- Testes unitários.
+- Cobertura mínima de 90% para Domain e Application.
+- Testes de integração dos endpoints principais.
+- Dockerfile.
+- docker-compose.
+- README.
+- .env.example.
+- Não inserir credenciais reais.
+ 
+Importante: Não quebrar o q já existia, arquivos estratégicos, pode ser editado, mas tem q ter garantia que está tudo funcionando.</p></section><section><h2>Ganhos</h2><div class="grid"><div class="gain">✅ Evolução incremental segura</div><div class="gain">🧪 Cobertura global &gt; 90%</div><div class="gain">🔐 Auditoria de dependências</div><div class="gain">🚀 Entrega validada em cópia limpa</div></div></section><section><h2>Executar localmente</h2><pre><code>./run_backend.ps1</code></pre><p>Swagger: <code>http://localhost:&lt;porta&gt;/swagger</code><br>Health: <code>http://localhost:&lt;porta&gt;/health</code></p></section><section><h2>Compilar para hospedagem</h2><pre><code>dotnet publish src/*Api/*.csproj --configuration Release --output ./publish /p:UseAppHost=false</code></pre><p>Publique o conteúdo da pasta <code>publish</code> e configure connection strings e variáveis do ambiente no provedor.</p></section><section><h2>Endpoints</h2><table><thead><tr><th>Método</th><th>Rota</th></tr></thead><tbody><tr><td><span class='method get'>GET</span></td><td><code>/api/Customers</code></td></tr><tr><td><span class='method get'>GET</span></td><td><code>/api/Customers/{id}</code></td></tr><tr><td><span class='method post'>POST</span></td><td><code>/api/Customers</code></td></tr><tr><td><span class='method put'>PUT</span></td><td><code>/api/Customers/{id}</code></td></tr><tr><td><span class='method delete'>DELETE</span></td><td><code>/api/Customers/{id}</code></td></tr><tr><td><span class='method get'>GET</span></td><td><code>/api/Suppliers</code></td></tr><tr><td><span class='method get'>GET</span></td><td><code>/api/Suppliers/{id}</code></td></tr><tr><td><span class='method post'>POST</span></td><td><code>/api/Suppliers</code></td></tr><tr><td><span class='method put'>PUT</span></td><td><code>/api/Suppliers/{id}</code></td></tr><tr><td><span class='method delete'>DELETE</span></td><td><code>/api/Suppliers/{id}</code></td></tr></tbody></table></section><section><h2>Testes</h2><pre><code>dotnet test --configuration Release --collect "XPlat Code Coverage"</code></pre><p>Critério contratual: testes aprovados e cobertura global superior a 90%.</p></section><section><h2>Massas de teste</h2><pre><code>{
+  "name": "Registro de teste",
+  "document": "123456789",
+  "email": "teste@example.com"
+}</code></pre></section><footer>Gerado pelo Fabulosoft Dev Agent • documentação incluída no próprio projeto</footer></main></body></html>
