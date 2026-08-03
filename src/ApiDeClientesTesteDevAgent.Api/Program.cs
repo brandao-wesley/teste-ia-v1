@@ -1,4 +1,5 @@
 using ApiDeClientesTesteDevAgent.Application.Customers;
+using ApiDeClientesTesteDevAgent.Application.Suppliers;
 using ApiDeClientesTesteDevAgent.Infrastructure;
 using ApiDeClientesTesteDevAgent.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<CustomerService>();
+builder.Services.AddScoped<SupplierService>();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();

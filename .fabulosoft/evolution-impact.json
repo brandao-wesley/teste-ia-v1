@@ -1,0 +1,19 @@
+{
+  "mode": "safe_incremental",
+  "entity": "Supplier",
+  "created": [
+    "src/ApiDeClientesTesteDevAgent.Domain/Suppliers/Supplier.cs",
+    "src/ApiDeClientesTesteDevAgent.Application/Suppliers/SupplierContracts.cs",
+    "src/ApiDeClientesTesteDevAgent.Application/Suppliers/ISupplierRepository.cs",
+    "src/ApiDeClientesTesteDevAgent.Application/Suppliers/SupplierService.cs",
+    "src/ApiDeClientesTesteDevAgent.Infrastructure/Repositories/EfSupplierRepository.cs",
+    "src/ApiDeClientesTesteDevAgent.Api/Controllers/SuppliersController.cs",
+    "tests/ApiDeClientesTesteDevAgent.UnitTests/Suppliers/SupplierTests.cs"
+  ],
+  "edited": [
+    "src\\ApiDeClientesTesteDevAgent.Api\\Program.cs",
+    "src\\ApiDeClientesTesteDevAgent.Infrastructure\\DependencyInjection.cs",
+    "src\\ApiDeClientesTesteDevAgent.Infrastructure\\Persistence\\AppDbContext.cs"
+  ],
+  "protected_existing_behavior": true
+}
